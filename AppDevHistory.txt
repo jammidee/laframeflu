@@ -15,4 +15,4 @@ Tested / QA by:				Jammi Dee
             - Added the initial framework page.
             - create la.bat to run app during development
             - created lu.bat to compile app to web
-            - 
+            - Added About page.
