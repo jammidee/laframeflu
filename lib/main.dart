@@ -1,3 +1,17 @@
+//====================================================================================
+// Copyright (C) 2020 Azulila, Inc. All rights reserved.
+// Copyright (c) 2024 - Joel M. Damaso - mailto:jammi_dee@yahoo.com Manila/Philippines
+// This file is part of Azulila System.
+// 
+// Framework Designed by: Jammi Dee (jammi_dee@yahoo.com)
+// 
+// File Create Date: 01/31/2024
+// Created by:  Jammi Dee
+// Modified by: Jammi Dee
+// Time:        07:29 PM
+//====================================================================================
+
+
 import 'package:flutter/material.dart';
 
 void main() {
@@ -11,7 +25,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'Lalula Flutter Template 1.0',
       theme: ThemeData(
         // This is the theme of your application.
         //
@@ -32,6 +46,8 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
       ),
       home: const MyHomePage(title: 'Flutter Demo Home Page'),
+      debugShowCheckedModeBanner: false,    //----> Hide the debug ribbon for test/demo purposes only - JMD 01/31/2024
+
     );
   }
 }
