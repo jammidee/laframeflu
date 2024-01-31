@@ -13,6 +13,7 @@
 
 
 import 'package:flutter/material.dart';
+import 'package:lakuboflu/win/winmain/scr_Main.dart';
 
 void main() {
   runApp(const MyApp());
@@ -24,8 +25,11 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
+
     return MaterialApp(
+
       title: 'Lalula Flutter Template 1.0',
+
       theme: ThemeData(
         // This is the theme of your application.
         //
@@ -45,11 +49,17 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const MyHomePage(title: 'Flutter Demo Home Page'),
-      debugShowCheckedModeBanner: false,    //----> Hide the debug ribbon for test/demo purposes only - JMD 01/31/2024
+
+      //home: const MyHomePage(title: 'Flutter Demo Home Page'),
+      home: const ScrMain(title: 'LaKuboFlu'),
+
+      // Hide the debug ribbon for test/demo purposes only - JMD 01/31/2024
+      debugShowCheckedModeBanner: false,
 
     );
+
   }
+  
 }
 
 class MyHomePage extends StatefulWidget {

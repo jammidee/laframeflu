@@ -30,10 +30,15 @@ Creation:
 1. flutter create --org com.parpol --description "Lalulla Flutter Framework" lakuboflu
 2. To run:
 
- flutter run
+ flutter run -d chrome ---> to run on web
 
-3. Start Editing the lib/main.dart
-4. 
+3. To compile via web
+
+  flutter build web --> to compile as web app.
+
+4. Start Editing the lib/main.dart
+
+5. 
 
 
 EXTENSIONS

@@ -12,4 +12,7 @@ Tested / QA by:				Jammi Dee
 
 01/31/2024  - Create the Flutter / Dart Framework
             - register to git
+            - Added the initial framework page.
+            - create la.bat to run app during development
+            - created lu.bat to compile app to web
             - 
