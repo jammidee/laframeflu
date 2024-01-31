@@ -1,0 +1,73 @@
+flutter create --org com.parpol --description "Lalulla Flutter Framework" lakuboflu
+Creating project lakuboflu...
+Resolving dependencies in lakuboflu... (2.0s)
+Got dependencies in lakuboflu.
+Wrote 129 files.
+
+All done!
+You can find general documentation for Flutter at: https://docs.flutter.dev/
+Detailed API documentation is available at: https://api.flutter.dev/
+If you prefer video documentation, consider: https://www.youtube.com/c/flutterdev
+
+In order to run your application, type:
+
+  $ cd lakuboflu
+  $ flutter run
+
+Your application code is in lakuboflu\lib\main.dart.
+
+Create By: Joel M. Damaso
+Date: 01/31/2024
+Assisted By: ChatGPT 3.5
+
+La Kubo flu
+La - lalula
+kubo - frame
+flu - Flutter / Dart
+
+Creation:
+
+1. flutter create --org com.parpol --description "Lalulla Flutter Framework" lakuboflu
+2. To run:
+
+ flutter run
+
+3. 
+
+
+EXTENSIONS
+
+1. Rest Client - Huachao Mao
+2. Tabstop Whitespace Converter - Johnny Wong
+3. Prettier - Code Fomratter - Prettier
+4. JavaSscript Debugger (Nightly) - Microsoft
+5. Material Icon Theme - Philipp Kief
+
+LIBRARIES
+
+
+
+GIT - G1thUUb@!!M3
+---
+
+Create .gitignore on the app root folder
+# Ignore node_modules
+node_modules/
+
+git init           # Initialize a Git repository
+git add .          # Add all files in your project to the staging area
+git config --global user.email "jammi_dee@yahoo.com"
+git config --global user.name "Jammi Dee"
+git commit -m "Initial commit Lalulla Framework for Flutter"  # Commit your changes
+git branch -M main  # Rename the default branch to 'main'
+git remote add origin https://github.com/jammidee/laframeflu.git  # Replace with your GitHub repository URL
+git pull origin main  #if there is error in push
+git pull origin main --allow-unrelated-histories #if there are errors
+git push -u origin main  # Push your code to GitHub
+git rm -r --cached logs
+
+git status
+git log
+git log --all --graph
+
+
